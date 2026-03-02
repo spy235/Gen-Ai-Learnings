@@ -199,19 +199,3 @@ Chain 1 → Chain 2 → Chain 3
 ✔ Deterministic LLM Control  
 ✔ Sequential Chaining  
 
----
-
-# 📈 Current Level
-
-Upper-Intermediate LangChain
-
----
-
-# 🎯 Next Steps
-
-- Add Vector Database (FAISS / Chroma)  
-- Build RAG pipeline  
-- Create AI Agent  
-- Deploy with FastAPI  
-- Add Memory  
-- Add Guardrails & Evaluation  
