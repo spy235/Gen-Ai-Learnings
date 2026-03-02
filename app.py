@@ -38,7 +38,7 @@ book_name_chain = book_name_prompt_template | llm | StrOutputParser()
 books_text = book_name_chain.invoke({"theme": "personality development"})
 print("Books:\n", books_text)
 
-chain 2
+# chain 2
 book_summary_prompt_template = PromptTemplate(
     input_variables=["book_names_list"],
     template="""Please take any one book from the list {book_names_list}.
