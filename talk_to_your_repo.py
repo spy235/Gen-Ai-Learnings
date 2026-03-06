@@ -43,5 +43,5 @@ while True:
     if query.lower() == "exit":
         break
 
-    result = qa.run("Gi")
+    result = qa.run(query)
     print("\nAnswer:\n", result)
